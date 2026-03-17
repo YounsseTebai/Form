@@ -1,13 +1,16 @@
-<section class="h-screen w-full flex justify-center items-center">
-    <form class="flex flex-col bg-green-400 px-5 py-3 text-center rounded-lg">
-        <h1 class="text-lg text-white mb-5 font-bold">Login</h1>
-        <input class="bg-white outline-none  rounded-md px-5 py-1 mb-2 " placeholder="Email" type="email">
-        <input class="bg-white outline-none rounded-md px-5 py-1 mb-3" placeholder="Password" type="password">
-        <a class="text-sky-800 underline cursor-pointer">Register here</a>
-        <a class="text-sky-800 underline cursor-pointer">I'am forget password?</a>
-        <div class="flex gap-5 justify-center mt-5">
-            <i class="fa-brands fa-google bg-white text-md p-2 rounded-full cursor-pointer"></i>
-            <i class="fa-brands fa-github bg-white text-md p-2 rounded-full cursor-pointer"></i>
+<section class="h-screen w-full flex justify-center items-center bg-linear-to-r from-blue-500 via-cyan-500 to-teal-500">
+    <form class="flex flex-col w-4/12 bg-white px-15 py-3  rounded-lg">
+        <h1 class="text-2xl text-black mb-5 text-center">Log In With</h1>
+        <div class="flex gap-5 justify-center mb-5">
+            <a class=" bg-blue-500 text-white  shadow-lg px-4 py-1 rounded-md cursor-pointer"><i class="fa-brands fa-google text-md p-2  "></i>Google</a>
+            <a class=" bg-black text-white  shadow-lg px-4 py-1 rounded-md cursor-pointer"><i class="fa-brands fa-github  text-md p-2 "></i>Github</a>
         </div>
+        <label class="text-black text-sm" for="Email">Email</label>
+        <input class="bg-gray-200 outline-none rounded-sm  px-5 py-2 mb-2 " id="Email" type="email">
+        <label class="text-black text-sm" for="Password">Password</label>
+        <input class="bg-gray-200 outline-none rounded-sm px-5 py-2 mb-3" id="Password" type="password">
+        <button class="bg-black rounded-sm py-2 text-white">Login</button>
+        <a class="text-sky-800 underline cursor-pointer text-center">Register here</a>
+        <a class="text-sky-800 underline cursor-pointer text-center">I'am forget password?</a>
     </form>
 </section>
